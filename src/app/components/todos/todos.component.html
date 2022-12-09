@@ -1,0 +1,10 @@
+<!-- <ul>
+    <li>{{todos[0].task}}</li>
+    <li>{{todos[1].task}}</li>
+    <li>{{todos[2].task}}</li>
+    <li>{{todos[3].task}}</li>
+</ul> -->
+<ul>
+    <app-todo-item *ngFor="let item of todos" [item]="item"></app-todo-item>
+</ul>
+
